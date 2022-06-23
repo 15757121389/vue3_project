@@ -1,5 +1,5 @@
 <template>
-<div>
+<div style="border:1px solid blue;padding: 5px">
   <h2>second组件内容</h2>
   <ThirdComponent></ThirdComponent>
 </div>

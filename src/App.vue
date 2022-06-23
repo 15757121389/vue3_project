@@ -1,23 +1,23 @@
-<template>
-  <div>
-    <FirstComponent></FirstComponent>
-  </div>
-</template>
-
 <script>
-import FirstComponent from "./components/FirstComponent.vue";
-export default {
-  data(){
+export default{
+  data() {
     return{
-
     }
   },
-  components:{
-    FirstComponent
+  computed:{
+  },
+  methods: {
+  },
+  watch: {
   }
 }
 </script>
 
-<style>
+<template>
+  <div>
+  </div>
 
+</template>
+
+<style>
 </style>
