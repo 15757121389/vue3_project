@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE3嵌入</title>
+    <script src="vue3.js"></script>
+</head>
+<body>
+    <div id="counter">
+<!--        vue的语法，告诉vue，这里放了一个变量-->
+        <p>{{num}}</p>
+        <p>{{uname}}</p>
+    </div>
+
+    <script>
+        // 配置对象
+        const Counter = {
+            data:function () {
+                return {
+                    num: 0,
+                    uname: '张三'
+                }
+            }
+        }
+       let app= Vue.createApp(Counter).mount('#counter') //创建应用，将配置对象传入，mount挂在，和上面的元素相关联
+        console.log(app)
+    </script>
+</body>
+</html>
