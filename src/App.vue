@@ -2,6 +2,13 @@
 export default{
   data() {
     return{
+      message:'helloworld'
+    }
+  },
+  setup(){
+
+    return{
+
     }
   },
   computed:{
@@ -9,6 +16,9 @@ export default{
   methods: {
   },
   watch: {
+    message:function (newVal,oldVal){
+
+    }
   }
 }
 </script>

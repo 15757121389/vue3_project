@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './跨级通信provide-inject.vue'
-
+import App from './App.vue'
+//实例化一个对象
 createApp(App).mount('#app')
